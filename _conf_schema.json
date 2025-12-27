@@ -1,0 +1,14 @@
+{
+  "eporner_proxy": {
+    "description": "代理地址，用于访问EPorner",
+    "type": "string",
+    "default": "",
+    "hint": "例如: http://127.0.0.1:7890 或 socks5://127.0.0.1:1080"
+  },
+  "eporner_blur_level": {
+    "description": "图片模糊程度（0=不模糊）",
+    "type": "int",
+    "default": 5,
+    "hint": "数值越大模糊程度越高，建议范围: 0-10"
+  }
+}
